@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stylish Chat</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Welcome to Stylish Chat</h2>
+    </div>
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-form-container">
+      <form id="chat-form">
+        <input id="msg" type="text" placeholder="Enter Message">
+        <button class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="cookies.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
